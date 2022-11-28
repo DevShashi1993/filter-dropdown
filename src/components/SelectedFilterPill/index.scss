@@ -1,0 +1,30 @@
+.pill {
+    display: inline-flex;
+    padding: 10px 20px 10px 14px;
+    border-radius: 8px;
+    background-color: #344054;
+    color: white;
+    font-size: 14px;
+    align-items: center;
+    margin: 0 3px 0 3px;
+  
+    &:last-child:not(:first-child) {
+      margin: 0 0 0 3px;
+    }
+  
+    &:first-child:not(:last-child) {
+      margin: 0 3px 0 0;
+    }
+  
+    .remove_pill_btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 5px;
+      background-color: transparent;
+      border: 0;
+      outline: 0;
+      padding: 0;
+      cursor: pointer;
+    }
+  }

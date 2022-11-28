@@ -1,0 +1,14 @@
+.dropwdown_option_list_item {
+  &:not(:last-child) {
+    margin-bottom: 12px;
+  }
+
+
+  label {
+    cursor: pointer;
+  }
+
+  .dropwdown_option_input {
+    margin-right: 8px;
+  }
+}
